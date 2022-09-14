@@ -1,2 +1,3 @@
-let number = 345 % 2;
-console log(number); // remainder 1 — an odd number
+console.log(
+  5 + 1 * 10 // 15, not 60
+);
