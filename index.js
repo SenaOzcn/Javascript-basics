@@ -1,6 +1,3 @@
-console.log(
-  'My age is ' + 12, // 'My age is 12'
-  '12' + 34, //'1234'
-  12 + '34', //'1234'
-  12 + 34, //46
-);
+const name = 'Misha';
+
+console.log('Hello, ' + name + ', nice to see you!'); //'Hello, Misha, nice to see you!'
