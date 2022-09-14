@@ -85,7 +85,7 @@ For example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/numbers.JPG)
 
-# Strings
+## Strings
 
 The ```string``` data type is used for strings (sequences of characters).
 
