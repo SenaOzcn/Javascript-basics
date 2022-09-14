@@ -1,2 +1,2 @@
-const name = 'Misha';
-const message = 'Hello, world!';
+const isMarried = true;
+const hasDog = false;
