@@ -127,3 +127,33 @@ For example:
 **Please note:** ```typeof null``` returns the ```'object'``` string, while ```typeof undefined``` returns the ```undefined``` string:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/objct.JPG)
+
+# Numbers
+
+In Javascript, all numbers are of the ```number``` type. They can contain both integer and fractional values.
+
+Let's look at what operations we can perform with numbers and their priority.
+
+## Operations
+
+I hope you still remember from math lessons what operations you can perform with numbers: addition, subtraction, multiplication, division, exponentiation, and a remainder of the division.
+
+Let's consider examples:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/operations.JPG)
+
+Using the ```%``` operator, you can get the last digit of a number, for example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/digit.JPG)
+
+You can also check if a number is even:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/evenNumber.JPG)
+
+## Priority
+
+Usually, operations are performed from left to right. But multiplication and division have higher priority, so they are executed before addition and subtraction. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/priority.JPG)
+
+To specify the correct calculation order, you should use parentheses ```()```. Then this operation will be performed first, and then all the others, and ```(5 + 1) * 10``` will be ```60```.
