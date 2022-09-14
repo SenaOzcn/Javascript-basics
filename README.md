@@ -20,3 +20,8 @@ Comments can be single-line or multi-line.
 
 Single-line comments are indicated by two backslash characters ```//```. For example:
 
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/comments.JPG)
+
+Multi-line comments start with ```/*``` and end with ```*/```. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/multi-linecomments.JPG)
