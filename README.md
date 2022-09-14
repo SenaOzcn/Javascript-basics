@@ -198,3 +198,18 @@ a + b = 8
 Double quotes (```"Misha"```, ```"Hello, world!"```) work the same way as single quotes, but we won't use them to avoid confusion with double quotes in HTML.
 
 **Please note:** the quotes type should match at the beginning and the end of your string.
+
+## Concatenation
+
+In Javascript, you can concatenate (combine) strings using the ```+``` operator.
+
+**Please note:** in this context, the ```+``` operator performs concatenation (not arithmetic addition of numbers).
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation1.JPG)
+
+You can concatenate not only strings but also other values, for example, a string with a number:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation2.JPG)
+
