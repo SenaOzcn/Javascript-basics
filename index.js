@@ -1,4 +1,6 @@
-// declare the `cookiePrice` variable and set it to 15
-const cookiePrice = 15;
+const price = 25;
+const amount = 5;
+const discount = 10;
+const result = price * amount - discount;
 
-console.log(20 - cookiePrice); // 5
+console.log(result); // 115
