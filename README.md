@@ -67,3 +67,6 @@ For example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/expression.JPG)
 
+Let's look at another example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/anotherExample.JPG)
