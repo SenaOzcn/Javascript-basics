@@ -223,3 +223,10 @@ An empty string is a string that does not contain any characters.
 
 The empty string is declared like this:
 
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/emptyString.JPG)
+
+Typically, the empty string is used to "glue" parts to it as the program runs.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/glue.JPG)
