@@ -1,6 +1,7 @@
 console.log(
-  'b' > 'a', // true
-  'abc' > 'aba', // true
-  'sunny' > 'sun', // true
-  'hello' === 'hello', // true
+  'a' > 'Y', // true
+  'B' > 'a', // false
+  'A' < 'a', // true
+  'a' === 'A', // false
+  'Hello' === 'hello', // false
 );
