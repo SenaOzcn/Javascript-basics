@@ -1,2 +1,2 @@
-const age = 37;
-const x = -0.25;
+const name = 'Misha';
+const message = 'Hello, world!';
