@@ -1,8 +1,5 @@
-const name = 'Misha';
-console.log(typeof name); // 'string'
+console.log(typeof undefined); // 'undefined'
 
-const age = 37;
-console.log(typeof age); // 'number'
-
-const isMarried = true;
-console.log(typeof isMarried); // 'boolean'
+// this is a documented "bug" of Javascript
+// don't even try to understand why 'object' 😊
+console.log(typeof null); // 'object'
