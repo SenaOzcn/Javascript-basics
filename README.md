@@ -248,3 +248,36 @@ Javascript uses the following operators to compare numbers: ```===```, ```!==```
 Let's consider examples:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/numberComparison.JPG)
+
+## String Comparison
+
+Strings in Javascript are compared letter by letter in alphabetical order. Let's explain:
+
+1. Compare the first letter of the first string with the first letter of the second string.
+2. If the first letters are different, the larger string is the one where the first letter is later in the alphabet.
+3. When the first letters are equal, the second letters are compared according to the same principle, and so on.
+4. The comparison continues until the following letter of one of the strings is greater than the corresponding letter in the other string.
+5. If one of the strings runs out of letters and the second does not, then the second one is greater.
+6. If all letters match, then the strings are equal.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/stringComparison.JPG)
+
+**Please note:** in Javascript, lowercase letters come after uppercase letters, so comparing ```'a' > 'Y'``` evaluates to ```true```:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/stringComparison2.JPG)
+
+## The Negation Operator (!)
+
+To get a variable's or expression's opposite value, use the logical negation operator !.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/negation.JPG)
+
+To apply the negation operator to an entire expression, you can use the ():
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/negation2.JPG)
+
+
