@@ -25,3 +25,29 @@ Single-line comments are indicated by two backslash characters ```//```. For exa
 Multi-line comments start with ```/*``` and end with ```*/```. For example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/multi-linecomments.JPG)
+
+## Literals
+
+All programs work with data, such as numbers or strings. Literal is a way to write some data in the program.
+
+Number literals consist of digits, ```-``` and ```.``` characters and do not require quotes: ```42```, ```-5```, ```3.14```.
+
+String literals are always written in quotes: ```'Misha'```, ```'Hello, world!'```.
+
+## Variables
+
+Variables are used to store data. Variables are used to store data. This is like a box with a name in which we can put something. Later we can take the stored data to use it in our program.
+
+The assignment operator ```=``` is used to set a variable value.
+
+JavaScript allows you to create variables using ```let``` and ```const``` keywords.
+
+Let's consider examples:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/variables.JPG)
+
+**Please note:** the variable name should explain what data is stored in it. Typically it contains one or more words in English. The first word should start with a small letter and the rest with a capital letter. Numbers (inside the name) and ```_``` or ```$``` characters are also possible but rarely used.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/name.JPG)
