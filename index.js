@@ -1,3 +1,3 @@
-const isAdult = true;
-const hasEnoughMoney = true;
-const canBuy = isAdult && hasEnoughMoney; // true
+const hasEnoughCash = true;
+const hasCreditLimit = false;
+const canBuy = hasEnoughCash || hasCreditLimit; // true
