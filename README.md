@@ -157,3 +157,29 @@ Usually, operations are performed from left to right. But multiplication and div
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/priority.JPG)
 
 To specify the correct calculation order, you should use parentheses ```()```. Then this operation will be performed first, and then all the others, and ```(5 + 1) * 10``` will be ```60```.
+
+# Strings
+
+Strings represent text data. They can be written in single, double, or backticks. Let's consider examples.
+
+## Creating a String
+
+Here is a string in single quotes:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/str.JPG)
+
+You can insert variable values, expressions, and line breaks using backticks. This insertion is called **interpolation**:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/interpolation.JPG)
+
+In the console we get:
+
+```
+Hi, Misha!
+Welcome to the team.
+a + b = 8
+```
+
+Double quotes (```"Misha"```, ```"Hello, world!"```) work the same way as single quotes, but we won't use them to avoid confusion with double quotes in HTML.
+
+**Please note:** the quotes type should match at the beginning and the end of your string.
