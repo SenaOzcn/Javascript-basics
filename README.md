@@ -213,3 +213,13 @@ You can concatenate not only strings but also other values, for example, a strin
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation2.JPG)
 
+**Please note:** if at least one of the values combined by the operator ```+``` is a string, then the concatenation is performed (and we get a "glued" string). Concatenation can be performed several times in a row. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation3.JPG)
+
+## Empty String
+
+An empty string is a string that does not contain any characters.
+
+The empty string is declared like this:
+
