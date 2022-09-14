@@ -280,4 +280,34 @@ To apply the negation operator to an entire expression, you can use the ():
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/negation2.JPG)
 
+## Logical AND (&&)
 
+If you need to check that all conditions are met, you can use the ```&&``` operator — logical AND.
+
+It returns ```true``` only if all of its arguments are true. Otherwise — ```false```.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/and.JPG)
+
+## Logical OR (||)
+
+If you need to check that at least one of the conditions is truthy, you can use the ```||``` operator — logical OR.
+
+It returns ```true``` if **at least one** of its arguments is ```true```. Otherwise — ```false```.
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/or.JPG)
+
+We'll discuss what the ```&&``` and ```||``` operators return later.
+
+## Combining Conditions
+
+You can also combine more than two conditions, for example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/combining.JPG)
+
+If you use different operators in one expression, then you should use ```()```:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/combining2.JPG)
+
+**Please note:** the ```&&``` operator priority is higher than ```||```, so it will be executed first (unless you use parentheses).
