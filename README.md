@@ -70,3 +70,27 @@ For example:
 Let's look at another example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/anotherExample.JPG)
+
+# Data Types
+
+All values in Javascript have a specific data type. It determines which commands can be executed with certain values. For example, you can perform any mathematical operations with numbers (add, multiply, divide, and so on), and strings can be "glued" (concatenated) or divided into parts.
+
+Let's consider data types in Javascript.
+
+## Numbers
+
+All the numbers (integer and fractional) have the ```number``` data type.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/numbers.JPG)
+
+# Strings
+
+The ```string``` data type is used for strings (sequences of characters).
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/strings.JPG)
+
+**Please note:** all the strings must be enclosed in quotes.
