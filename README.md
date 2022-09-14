@@ -230,3 +230,21 @@ Typically, the empty string is used to "glue" parts to it as the program runs.
 For example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/glue.JPG)
+
+# Boolean
+
+Sometimes you need to check if a particular condition is true. As a result, you will get one of two answers: ```yes, true``` or ```no, not true```.
+
+Javascript uses the ```boolean``` type for such checks. It contains only two values: ```true``` or ```false```.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/bln.JPG)
+
+## Number Comparison
+
+Javascript uses the following operators to compare numbers: ```===```, ```!==```, ```>```, ```<```, ```>=``` and ```<=```.
+
+Let's consider examples:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/numberComparison.JPG)
