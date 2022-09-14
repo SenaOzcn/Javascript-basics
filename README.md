@@ -94,3 +94,36 @@ For example:
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/strings.JPG)
 
 **Please note:** all the strings must be enclosed in quotes.
+
+
+## Boolean
+
+```boolean``` values can be either ```true``` or ```false```. Such values check conditions inside of ```if``` constructs and loops.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/boolean.JPG)
+
+## null and undefined
+
+There are two more special values: ```null``` and ```undefined```.
+
+```null``` is "nothing". It is explicitly assigned to a variable when we do not know the needed value yet or want to remove its old value. For example, we have a box with a gift, and then the gift is taken out of the box, and the box becomes empty:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/null.JPG)
+
+```undefined``` is the default value (before we set a variable value). For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/undefined.JPG)
+
+## How to Find Out the Data Type
+
+The ```typeof``` operator can be used to get the data type of your value or even an entire expression.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/typeof.JPG)
+
+**Please note:** ```typeof null``` returns the ```'object'``` string, while ```typeof undefined``` returns the ```undefined``` string:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/objct.JPG)
