@@ -51,3 +51,19 @@ Let's consider examples:
 For example:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/name.JPG)
+
+## Expressions
+
+To calculate something in our program, we can combine variables and literals using operators. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/calculate.JPG)
+
+To calculate the expression value, you need:
+
+1. Replace each variable with its value.
+2. Perform the calculations.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/expression.JPG)
+
