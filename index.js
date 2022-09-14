@@ -1,3 +1,2 @@
-const hasEnoughCash = true;
-const hasCreditLimit = false;
-const canBuy = hasEnoughCash || hasCreditLimit; // true
+const isWarm = isRed || isOrange || isYellow;
+const canBuy = isAdult && hasEnoughMoney && isProductAvaible;
