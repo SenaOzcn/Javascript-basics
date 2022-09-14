@@ -1,4 +1,4 @@
-const radius = 10;
-const circleSquare = 3.14 * radius * radius;
+// declare the `cookiePrice` variable and set it to 15
+const cookiePrice = 15;
 
-console.log(circleSquare); // 314
+console.log(20 - cookiePrice); // 5
