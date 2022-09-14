@@ -1,2 +1,2 @@
-let number = 345 % 10;
-console.log(number); // 5
+let number = 345 % 2;
+console log(number); // remainder 1 — an odd number
