@@ -1,7 +1,5 @@
-console.log(
-  'a' > 'Y', // true
-  'B' > 'a', // false
-  'A' < 'a', // true
-  'a' === 'A', // false
-  'Hello' === 'hello', // false
-);
+const isAdult = true;
+console.log(isAdult); // true
+
+const isNotAdult = !isAdult;
+console.log(isNotAdult); // false
