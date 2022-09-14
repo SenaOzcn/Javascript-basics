@@ -32,6 +32,21 @@ All programs work with data, such as numbers or strings. Literal is a way to wri
 
 Number literals consist of digits, ```-``` and ```.``` characters and do not require quotes: ```42```, ```-5```, ```3.14```.
 
+## Concatenation
+
+In Javascript, you can concatenate (combine) strings using the ```+``` operator.
+
+Please note: in this context, the ```+``` operator performs concatenation (not arithmetic addition of numbers).
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation1.JPG)
+
+You can concatenate not only strings but also other values, for example, a string with a number:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/concatenation2.JPG)
+
+**Please note:** if at least one of the values combined by the operator + is a string, then the concatenation is performed (and we get a "glued" string). Concatenation can be performed several times in a row. For example:
 String literals are always written in quotes: ```'Misha'```, ```'Hello, world!'```.
 
 ## Variables
