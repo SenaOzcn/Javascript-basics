@@ -1,5 +1,8 @@
-const square1 = getRectangleSquare(3, 2);
-console.log(square1); // 6
+function sum(x, y) {
+  return x + y;
+}
 
-const square2 = getRectangleSquare(4, 5);
-console.log(square2); // 20
+console.log(
+  sum(2, 2) // 4
+  sum(5, 7) // 12
+);
