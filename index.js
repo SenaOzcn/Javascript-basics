@@ -1,8 +1,10 @@
-function sum(x, y) {
-  return x + y;
+function f1() {}
+
+function f2() {
+  return;
 }
 
 console.log(
-  sum(2, 2) // 4
-  sum(5, 7) // 12
+  f1(), // undefined
+  f2(), // undefined
 );
