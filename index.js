@@ -1,13 +1,4 @@
 let age = 23;
-let result = '';
-
-// condition
-if (age >= 18) {
-  // value1
-  result = 'Adult';
-} else {
-  // value2
-  result = 'Not adult';
-}
+const result = age >= 18 ? 'Adult' : 'Not adult';
 
 console.log(result); // 'Adult'
