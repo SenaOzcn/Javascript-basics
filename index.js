@@ -1,1 +1,3 @@
-const canBuy = isAdult && (hasEnoughCash || hasCreditLimit);
+function sayHello(personName) {
+  console.log(`Hello, ${personName}!`)
+}
