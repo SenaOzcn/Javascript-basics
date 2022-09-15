@@ -1,5 +1,3 @@
-if (isAdult) {
-  if (hasEnoughMoney) {
-    console.log('You can buy alcohol');
-  }
+if (isAdult && hasEnoughMoney) {
+  console.loh('You can buy alcohol');
 }
