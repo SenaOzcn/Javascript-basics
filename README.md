@@ -451,3 +451,38 @@ You can also add the ```else``` statement at the end, which will work if none of
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/elseif2.JPG)
 
 With ```age = 1```, in the console we get: ```Baby```.
+
+## RETURN Keyword Inside IF
+
+When the ```if``` statement is used within a function, the ```return``` keyword can be helpful to avoid multiple ```else if``` statements.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/ifReturn.JPG)
+
+## Conditional (Ternary) Operator
+
+Sometimes you need to set different values for a variable depending on a condition. You can do it using the ```if``` and ```else``` statements:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/Conditional.JPG)
+
+But this is not very convenient for two reasons:
+
+1. Construction is too big.
+2. We cannot use ```const``` for the ```result``` because we need to reassign it inside the ```if else```.
+
+There is another way — **conditional (ternary) operator**. Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/Conditional2.JPG)
+
+If the ```age >= 18``` condition is met (as in our example), then ```'Adult'``` (after ```?```) will be selected. Otherwise — ```'Not an adult '``` (after ```:```).
+
+For clarity, you can write condition in parentheses:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/Conditional3.JPG)
+
+If the expression is too long, then you can write each value on a new line:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/Conditional4.JPG)
+
+This operator is often called a ternary because it is the only operator that uses 3 parts.
