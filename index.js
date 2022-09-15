@@ -1,5 +1,5 @@
-printSum(3, 2); // 5
-
-function printSum(x, y) {
-  console.log(x + y);
+function getRectangleSquare(a, b) {
+  const square = a * b;
+  
+  return square;
 }
