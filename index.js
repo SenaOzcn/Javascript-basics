@@ -1,10 +1,6 @@
-function f1() {}
-
-function f2() {
-  return;
+function sum(x, y) {
+  return x + y;
+  
+  // this line will never be called
+  console.log(`Sum of ${x} and ${y} is ${x + y}`);
 }
-
-console.log(
-  f1(), // undefined
-  f2(), // undefined
-);
