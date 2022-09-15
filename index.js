@@ -1,2 +1,5 @@
-sayHello('Misha'); // 'Hello, Misha!'
-sayHello('Roma'); // 'Hello, Roma!'
+printSum(3, 2); // 5
+
+function printSum(x, y) {
+  console.log(x + y);
+}
