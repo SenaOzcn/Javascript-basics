@@ -311,3 +311,64 @@ If you use different operators in one expression, then you should use ```()```:
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/combining2.JPG)
 
 **Please note:** the ```&&``` operator priority is higher than ```||```, so it will be executed first (unless you use parentheses).
+
+# Function
+
+A function is a small part of code that can be executed multiple times. It can take different arguments and return some results.
+
+It allows you to avoid writing the same or similar code many times.
+
+## Function Declaration
+
+The ```function``` keyword is used to create a function. Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/function.JPG)
+
+Where:
+
+- ```function``` tells us that this is a function;
+- ```sayHello``` is the function name;
+- ```personName``` is the function parameter. There can be several parameters separated by commas, or not at all, then the ```()``` parentheses should be empty;
+- the commands in curly braces ```{}``` are the function body. They are executed on each function call.
+
+**Please note:** it's best to start the name with a verb that describes the action your function performs. The first word starts with a small letter, and all subsequent words start with a capital letter:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionName.JPG)
+
+## Function Call
+
+To call a function, you need to write its name and then specify arguments (if you have any) in parentheses.
+
+Let's consider the previous example and pass various arguments to the ```sayHello()``` function:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionCall.JPG)
+
+You can call a function even before it has been declared:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionCall2.JPG)
+
+**Please note:** the value ```3``` goes to ```x```, and ```2``` goes to ```y```.
+
+## Function Return Value
+
+For a function to return some value, you need to write the ```return``` keyword in its body, and on the right, specify a value or expression that you want to return.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn.JPG)
+
+The result of a function is substituted in the place where it was called. In the examples below, the result is assigned to a variable:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn2.JPG)
+
+Let's consider another example where the result of a function is not written to a variable (it is printed to the console, but not saved anywhere):
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn3.JPG)
+
+If there is no ```return``` keyword in a function, or if there is no value to the right of ```return```, then the result is ```undefined```.
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn4.JPG)
+
+**Please note:** ```return``` completely terminates the current function execution, so no further commands are executed:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn5.JPG)
