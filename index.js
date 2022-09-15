@@ -1,6 +1,10 @@
-function sum(x, y) {
-  return x + y;
-  
-  // this line will never be called
-  console.log(`Sum of ${x} and ${y} is ${x + y}`);
+let age = 16;
+
+console.log('Go to the shop');
+
+if (age >= 18) {
+  // this line will only be executed if `age` is at least 18
+  console.log('You can buy alcohol');
 }
+
+console.log('Come back home');
