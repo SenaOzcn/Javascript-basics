@@ -1,3 +1,3 @@
-if (isAdult && hasEnoughMoney) {
-  console.loh('You can buy alcohol');
+if (hasEnoughCash || hasCreditLimit) {
+  console.loh('You can buy candies');
 }
