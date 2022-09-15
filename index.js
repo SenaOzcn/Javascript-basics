@@ -1,7 +1,5 @@
 if (isAdult) {
   console.log('The condition isAdult === true');
-}
-
-if (!isAdult) {
+} else {
   console.log('The condition isAdult !== true');
 }
