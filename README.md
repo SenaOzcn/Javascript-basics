@@ -372,3 +372,82 @@ If there is no ```return``` keyword in a function, or if there is no value to th
 **Please note:** ```return``` completely terminates the current function execution, so no further commands are executed:
 
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/functionReturn5.JPG)
+
+# Conditionals
+
+As you already know, the commands in the program are executed sequentially (from top to bottom). But sometimes, we need some commands to be executed only on a specific condition. For this, conditional statements are used.
+
+Let's take a closer look at conditional statements.
+
+## IF Statement
+
+### Single Condition
+
+Use the ```if``` statement if you need to check only one condition.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/ifSingle.JPG)
+
+After the ```if``` keyword, you need to put parentheses ```()``` and write **condition** inside. Then put curly braces ```{}```, and write your commands inside — this is **block body**. The block body will only be executed if the condition is truthy.
+
+Here the condition is ```age >= 18```. If we have ```age = 16```, then the condition is false, and the command inside the block is not executed. So in the console we get:
+
+```
+Go to the shop
+Come back home
+```
+
+### Multiple Conditions
+
+If you need to check multiple conditions, you can use the ```if``` statement inside another ```if```. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/ifMultiple.JPG)
+
+But it is challenging to track such a **nested** construction, for example, where the braces opened and where closed. Therefore, it is better to use the ```&&``` and ```||``` logical operators to combine conditions:
+
+An example of checking two conditions using the ```&&``` operator:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/ifNestedAnd.JPG)
+
+An example of checking two conditions using the ```||``` operator:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/ifNestedOr.JPG)
+
+## ELSE Statement
+
+Sometimes you need to execute different commands depending on whether the condition is truthy or not. You can perform that with two ```if``` statements with opposite conditions. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/else.JPG)
+
+But there is a shorter and more convenient way to do the same — using the ```else```:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/else2.JPG)
+
+If the condition is met, then in the console we will see:
+
+```
+The condition isAdult === true
+```
+
+Otherwise, in the console we will see:
+
+```
+The condition isAdult !== true
+```
+
+## ELSE IF Statement
+
+If you need to execute one command out of several, depending on some condition, then you can use the ```else if``` statement.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/elseif.JPG)
+
+With ```age = 5```, in the console we get: ```Child```.
+
+You can also add the ```else``` statement at the end, which will work if none of the conditions above is truthy:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/elseif2.JPG)
+
+With ```age = 1```, in the console we get: ```Baby```.
