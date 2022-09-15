@@ -1,5 +1,8 @@
-if (isAdult) {
-  console.log('The condition isAdult === true');
+if (age >= 18) {
+  console.log('Adult');
+} else if (age >= 10) {
+  // will work if age < 18 and age >= 10
+  console.log('Teenager');
 } else {
-  console.log('The condition isAdult !== true');
+  console.log('Child');
 }
