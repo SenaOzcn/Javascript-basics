@@ -1,3 +1,7 @@
-if (hasEnoughCash || hasCreditLimit) {
-  console.loh('You can buy candies');
+if (isAdult) {
+  console.log('The condition isAdult === true');
+}
+
+if (!isAdult) {
+  console.log('The condition isAdult !== true');
 }
