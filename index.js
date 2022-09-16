@@ -1,4 +1,4 @@
-for (let age = 3; age < 10; age++) {
-  // will be executed 7 times for ages 3 to 9
-  console.log(`My age is ${age}`);
+for (let i = 0; i < 3; i++) {
+  console.log('This command will be executed 3 times');
+  console.log(i);
 }
