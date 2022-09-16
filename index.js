@@ -1,8 +1,7 @@
-const n = 5;
-let sum = 0;
+let value = 22;
 
-for (let value = 1; value <= n; value++) {
-  sum += value; // 1 + 2 + 3 + 4 + 5
+while (value >= 5) {
+  value -= 5; // 17, 12, 7, 2
 }
 
-console.log(sum); // 15
+console.log(value); // 2
