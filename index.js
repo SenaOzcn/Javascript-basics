@@ -1,4 +1,8 @@
-// after each iteration `i` is increased by 3 times
-for (let i = 1; i < 30; i *= 3) {
-  console.log(i);
+const n = 5;
+let sum = 0;
+
+for (let value = 1; value <= n; value++) {
+  sum += value; // 1 + 2 + 3 + 4 + 5
 }
+
+console.log(sum); // 15
