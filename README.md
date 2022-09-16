@@ -486,3 +486,74 @@ If the expression is too long, then you can write each value on a new line:
 ![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/Conditional4.JPG)
 
 This operator is often called a ternary because it is the only operator that uses 3 parts.
+
+# Loops
+
+Often in your programs, you will need to repeat the same action several times. For this, loops are used.
+
+Here we'll talk about ```for```, ```while```, and ```do while``` loops and consider some examples of their usage.
+
+## FOR Loop
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for.JPG)
+
+Where:
+
+- ```let age = 3``` is the start command, which is executed only once before the loop starts;
+- ```age < 10``` is the condition that is checked before each loop iteration (body execution). The next iteration is executed only if the condition is truthy. Otherwise, the loop is finished;
+- ```age++``` is a command executed after each loop iteration.
+
+In the console we will see:
+
+```
+My age is 3
+My age is 4
+My age is 5
+My age is 6
+My age is 7
+My age is 8
+My age is 9
+```
+
+### Fixed Number of Repetitions
+
+The ```for``` loop is often used to repeat commands several times.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for2.JPG)
+
+In the console we will see the following result:
+
+```
+This command will be executed 3 times
+0
+
+This command will be executed 3 times
+1
+
+This command will be executed 3 times
+2
+```
+
+**Please note:** the loop variable is often called ```i```, which stands for index (pointer).
+
+### How the Loop Works
+
+Let's take a step-by-step look at how the loop works (on the previous loop example):
+
+1. First, the ```let i = 0``` command is executed.
+2. Next, the ```i < 3``` (```0 < 3```) condition is checked — ```true```.
+3. The ```console.log(i)``` command is executed with ```i === 0```.
+4. The ```i++``` command is executed (```now i === 1```).
+5. The ```i < 3``` (```1 < 3```) condition is checked again — ```true```.
+6. The ```console.log(i)``` command is executed with ```i === 1```.
+7. The ```i++``` command is executed (```now i === 2```).
+8. The ```i < 3``` (```2 < 3```) condition is checked again — ```true```.
+9. The ```console.log(i)``` command is executed with ```i === 2```.
+10. The ```i++``` command is executed (now ```i === 3```).
+11. The ```i < 3``` (```3 < 3```) condition is checked again — ```false```.
+12. The loop is completed.
+
