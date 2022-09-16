@@ -557,3 +557,90 @@ Let's take a step-by-step look at how the loop works (on the previous loop examp
 11. The ```i < 3``` (```3 < 3```) condition is checked again — ```false```.
 12. The loop is completed.
 
+### Iterate Backwards
+
+Sometimes it is convenient to start iterating over a loop from the end. Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for3.JPG)
+
+In the console we will see:
+
+```
+3
+2
+1
+```
+
+**Please note:** in this example, we started with ```let i = 3``` and decremented it by ```1``` at each step instead of incrementing.
+
+### Loop With Step
+
+We can also create step loops and change the loop variable by any value. Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for4.JPG)
+
+In the console we get the following result:
+
+```
+5
+15
+25
+```
+
+Another example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for5.JPG)
+
+In the console we get the following result:
+
+```
+1
+3
+9
+27
+```
+
+### Sum of Numbers From 1 to n
+
+You can also sum numbers using a loop. For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/for6.JPG)
+
+## WHILE Loop
+
+Sometimes we do not know how many times a particular command needs to be executed. For example, when calculating the remainder of a division.
+
+In such cases, we can use the ```while``` loop that will run as long as the condition is truthy.
+
+Let's consider an example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/while.JPG)
+
+Here ```value >= 5``` is the condition. The loop body is executed while the condition is truthy.
+
+## DO WHILE Loop
+
+If we need to check the condition after the first iteration (not before), then the ```do while``` loop with a postcondition will work.
+
+It is similar to the ```while``` loop but checks the condition **after the loop body has been executed once**.
+
+For example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/doWhile.JPG)
+
+In the console we will see:
+
+```
+0
+1
+2
+```
+
+Let's look at another example:
+
+![](https://github.com/SenaOzcn/Javascript-basics/blob/MIT-License/images/doWhile2.JPG)
+
+Unlike the ```while (i < 3)``` loop, this code prints ```7```, and then completes its work.
+
+In practice, the ```do while``` loop is rarely used.
+
